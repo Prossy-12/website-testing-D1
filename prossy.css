@@ -1,0 +1,109 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: blue;
+    color: bisque;
+}
+
+/* Header Styling */
+header {
+    background: lightblue;
+    color: grey;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 { 
+     h1 {
+        font-family: 'Lobster', cursive; /* Decorative font */
+        font-size: 3rem; /* Large size */
+        font-weight: 200px; /* Normal weight */
+        color: blue; /* Primary color */
+        text-shadow: 2px 2px 4px bisque(0, 0, 0, 0.1); /* Subtle text shadow */
+        margin-bottom: 20px; /* Spacing below heading */
+        letter-spacing: 3px; /* Slightly increased letter spacing */
+    }
+    h2 {
+        font-family: 'Roboto', sans-serif; /* Clean and modern font */
+        font-size: 3rem; /* Smaller than h1 */
+        font-weight: 200px; /* Bold weight */
+        color: blue; /* Accent color */
+        margin-bottom: 15px; /* Spacing below heading */
+        letter-spacing: 0.5px; /* Slightly increased letter spacing */
+        line-height: 1.3; /* Line height for readability */
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif; /* Same font for body text */
+        font-size: 1rem; /* Base font size */
+        color:black; /* Body text color */
+        line-height: 1.6; /* Line height for readability */
+        background-color: bisque /* Light background color */
+        padding 20px/* Padding around the content */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation Styling */
+nav {
+    background: lavender;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: beige;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: lemonchiffon;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background: lightblue;
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Example Class for a Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
