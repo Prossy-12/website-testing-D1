@@ -1,21 +1,16 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Body Styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: blue;
-    color: bisque;
+    background-color:black
+    padding: 20px;
+    font size:20PX
+
 }
 
 /* Header Styling */
 header {
-    background: lightblue;
+    background: white;
     color: grey;
     padding: 20px 0;
     text-align: center;

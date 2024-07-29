@@ -6,84 +6,97 @@
     <title>Home - Prossy Nalwoga's Personal Website</title>
     <link rel="stylesheet" href="prossy.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+          h1 font-size: 64px;
 
+        }
+        h1 
+        header {
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .about-section {
+            background-color: black;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: aliceblue;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+        
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 20px;">
             <a class="navbar-brand" href="#">Prossy's Website</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                
-            
-                  </div>
-                </li>
-              </ul>
+            <div class ="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </nav>
-        </header>
-     <style>
-     body {
-      background-color: black;
-      font-family: Arial, sans-serif;
-  }
-  header {
-      margin-bottom: 20px;
-  }
-  .contact-section {
-      background-color: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  footer {
-      margin-top: 20px;
-      text-align: center;
-      padding: 10px;
-      background-color: beige;
-  }
-  .btn-custom {
-      background-color: #007bff;
-      color: white;
-      border: none;
-  }
-  .btn-custom:hover {
-      background-color: #0056b3;
-  }
-
-
-   </style>
+        </nav>
+    </header> 
+    
     <main class="container mt-5">
         <div class="row">
             <div class="col-md-4 text-center">
-                <img src="love.jpg" class="img-fluid rounded-circle profile-img mb-3" alt="Prossy Nalwoga">
+                <img src="love.jpg" class="img-fluid rounded-circle profile-img mb-3" alt="Prossy Nalwoga" style="width: 97%; height: 90%;">
             </div>
-            <div class="col-md-8 about-section">
-                <h1>Prossy Nalwoga</h1>
-                <p  class="text-muted">Student of Software Engineering </b></p>
-                <p>I am an aspiring website developer with a keen interest in cybersecurity. Currently, I am a student of software engineering, committed to learning and growing in the field. I enjoy exploring new technologies and working on projects that challenge me to improve my skills.</p>
+            <div  class="col-md-8 about-section">
+                <h1 strong>Hi I am</strong></h1>
+                <h2><strong>Prossy Nalwoga</strong></h2>
+                <p  class="text-muted"><h3>Software Engineering student</h3></p>
+                <p style="border: 0cap;">I am an aspiring website developer with a keen interest in cybersecurity. Currently, I am a student of software engineering, committed to learning and growing in the field. I enjoy exploring new technologies and working on projects that challenge me to improve my skills.</p>
                 <p>In addition to web development, I am passionate about cybersecurity and continuously seek to expand my knowledge in this area to contribute to creating a safer online environment.</p>
-                <p>Thank you for visiting my website. </p>
+                <p>Thank you for visiting my website.</p>
             </div>
         </div>
     </main>
-
-    <footer>
+    <footer >
         <p>&copy; 2024 Prossy Nalwoga. All rights reserved.</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-qLa0M1La8aMGEr1eS/RnyG2A/qlNR5Q7z80EoNLgksCjmKXGJ+69+Z4/G6jQla4Q" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIqQU0t8X75jR0frZH7A9Gmp4H5u7p4MQoxN6r+f5LvmH7tIep9" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('a.nav-link').on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
